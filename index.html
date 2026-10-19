@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    
+    <title>Dwiti's Personal Tracker</title>
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; font-src 'self' data:; connect-src 'self' blob: data:; media-src 'self' blob: data:; worker-src 'self'; frame-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="A calm, private tracker for cycles, symptoms, reports, water, vaccines, medicines and movement." />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFF7F3" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1F1722" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Dwiti's Tracker" />
+    <meta name="application-name" content="Dwiti's Tracker" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="manifest" href="/dwiti-tracker/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/dwiti-tracker/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/dwiti-tracker/icons/favicon-32.png" />
+    <style id="app-shell">
+      html, body { background: #FFF7F3; overscroll-behavior: none; -webkit-text-size-adjust: 100%; }
+      body { -webkit-tap-highlight-color: transparent; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+      input, textarea, [contenteditable] { -webkit-user-select: text; user-select: text; }
+      @media (prefers-color-scheme: dark) { html, body { background: #1F1722; } }
+      #boot { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+      #boot svg { animation: boot-bloom 1.6s ease-in-out infinite alternate; }
+      @keyframes boot-bloom { from { transform: rotate(-8deg) scale(0.94); opacity: 0.8; } to { transform: rotate(8deg) scale(1); opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { #boot svg { animation: none; } }
+    </style>
+  </head>
+
+  <body>
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"><div id="boot"><svg width="84" height="84" viewBox="0 0 100 100" aria-hidden="true"><ellipse cx="50" cy="24" rx="11" ry="20" fill="#D9789E" opacity="0.85" transform="rotate(0 50 50)"/><ellipse cx="50" cy="24" rx="11" ry="20" fill="#A891D9" opacity="0.85" transform="rotate(45 50 50)"/><ellipse cx="50" cy="24" rx="11" ry="20" fill="#7CC3A0" opacity="0.85" transform="rotate(90 50 50)"/><ellipse cx="50" cy="24" rx="11" ry="20" fill="#F0A877" opacity="0.85" transform="rotate(135 50 50)"/><ellipse cx="50" cy="24" rx="11" ry="20" fill="#D9789E" opacity="0.85" transform="rotate(180 50 50)"/><ellipse cx="50" cy="24" rx="11" ry="20" fill="#A891D9" opacity="0.85" transform="rotate(225 50 50)"/><ellipse cx="50" cy="24" rx="11" ry="20" fill="#7CC3A0" opacity="0.85" transform="rotate(270 50 50)"/><ellipse cx="50" cy="24" rx="11" ry="20" fill="#F0A877" opacity="0.85" transform="rotate(315 50 50)"/><circle cx="50" cy="50" r="13" fill="#fff"/><circle cx="50" cy="50" r="6" fill="#B5577F"/></svg></div></div>
+  <script src="/dwiti-tracker/_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js" defer></script><script src="/dwiti-tracker/_expo/static/js/web/__common-7430c2bc1ece7baa94222db74ad366f6.js" defer></script><script src="/dwiti-tracker/_expo/static/js/web/entry-e85f4bf0e4fc2f9ab5a48359bbf4d639.js" defer></script>
+  <script src="/dwiti-tracker/register-sw.js" defer></script>
+</body>
+</html>

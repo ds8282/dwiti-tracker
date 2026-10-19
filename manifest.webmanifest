@@ -1,0 +1,32 @@
+{
+  "name": "Dwiti's Personal Tracker",
+  "short_name": "Dwiti's Tracker",
+  "description": "A calm, private tracker for cycles, symptoms, reports, water, vaccines, medicines and movement.",
+  "id": "/dwiti-tracker/",
+  "start_url": "/dwiti-tracker/",
+  "scope": "/dwiti-tracker/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF7F3",
+  "theme_color": "#FFF7F3",
+  "icons": [
+    {
+      "src": "/dwiti-tracker/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/dwiti-tracker/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/dwiti-tracker/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
